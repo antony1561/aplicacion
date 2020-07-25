@@ -7,39 +7,82 @@
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".login2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:fontFamily="arial"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="80dp"
+            android:text="EMDICEL"
+            android:textColor="#FF9800"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="20dp"
+            android:fontFamily="arial"
+            android:text="S T O R E"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-180dp"
+            android:layout_marginTop="50dp"
+            android:paddingBottom="20dp"
+            android:fontFamily="arial"
+            android:text="SU MEJOR ALTERNATIVA EN CELULARES"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    //////////////////////////////////////////////////
     <EditText
         android:id="@+id/correo2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="80dp"
         android:hint="Correo"/>
     <EditText
         android:id="@+id/contraseña2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:inputType="textPassword"
         android:hint="Contraseña"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="bottom"
         android:orientation="vertical">
         <Button
             android:id="@+id/btningresar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Iniciar Sesion"/>
+            android:layout_marginTop="50dp"
+            android:text="Iniciar Sesion"
+            android:background="@drawable/button_border_radius"/>
         <Button
             android:id="@+id/btnregistrarse2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrarse"/>
+            android:layout_marginTop="20dp"
+            android:text="Registrarse"
+            android:background="@drawable/button_border_radius"/>
         <Button
             android:id="@+id/btnrestablecer2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Olvide mi contraseña"/>
+            android:layout_marginTop="20dp"
+            android:text="Olvide mi contraseña"
+            android:background="@drawable/button_border_radius"/>
         
 
     </LinearLayout>
