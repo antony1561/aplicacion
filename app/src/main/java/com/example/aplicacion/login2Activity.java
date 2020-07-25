@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class login2Activity extends AppCompatActivity {
 
     private EditText e1,e2;
-    private Button b1,b2;
+    private Button b1,b2,b3;
 
     // variables de datos a registrar
     private String correo2 ="";
@@ -53,7 +53,14 @@ public class login2Activity extends AppCompatActivity {
                 }else{
                     Toast.makeText(login2Activity.this, "Rellene los campos vacios",Toast.LENGTH_SHORT).show();
                 }
-
+            }
+        });
+        b3 = (Button) findViewById(R.id.btnrestablecer2);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(login2Activity.this,recordarActivity.class);
+                startActivity(i);
             }
         });
     }

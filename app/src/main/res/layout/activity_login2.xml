@@ -35,6 +35,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Registrarse"/>
+        <Button
+            android:id="@+id/btnrestablecer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Olvide mi contraseña"/>
         
 
     </LinearLayout>
