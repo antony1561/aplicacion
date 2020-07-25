@@ -32,12 +32,17 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.aplicacion.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="Productos"
         tools:layout="@layout/fragment_gallery" />
-
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.aplicacion.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/productoFragment"
+        android:name="com.example.aplicacion.ui.Producto.ProductoFragment"
+        android:label="producto_fragment"
+        tools:layout="@layout/producto_fragment"/>
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.aplicacion.ui.perfil.perfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/perfil_fragment"/>
+
 </navigation>
